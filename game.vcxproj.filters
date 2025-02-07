@@ -44,6 +44,9 @@
     <Filter Include="Class\Bullets\EnemyBullets">
       <UniqueIdentifier>{7ab76edb-3c9c-487a-8d0c-1d58829db6ad}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Class\Scene">
+      <UniqueIdentifier>{4ac4795d-cdf2-43c9-bbd1-8246c3bacbba}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C:\KamataEngine\DirectXGame\base\DirectXCommon.cpp">
@@ -91,6 +94,9 @@
     </ClCompile>
     <ClCompile Include="Class\STG\STG.cpp">
       <Filter>Class\STG</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Scene\Scene.cpp">
+      <Filter>Class\Scene</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -190,5 +196,9 @@
     <ClInclude Include="Class\STG\STG.h">
       <Filter>Class\STG</Filter>
     </ClInclude>
+    <ClInclude Include="Class\Scene\Scene.h">
+      <Filter>Class\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Enumeration.h" />
   </ItemGroup>
 </Project>

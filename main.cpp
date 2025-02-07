@@ -1,6 +1,6 @@
 #include <Novice.h>
 #include "Constant.h"
-#include "./Class/STG/STG.h"
+#include "./Class/Scene/Scene.h"
 
 const char kWindowTitle[] = "LC1C_20_フクダソウワ_STGクラス化";
 
@@ -19,7 +19,8 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 	    変数を作る
 	---------------*/
 
-	STG* stg = new STG();
+	// シーン
+	Scene* scene = new Scene();
 
 
 	// ウィンドウの×ボタンが押されるまでループ
@@ -35,7 +36,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 		/// ↓更新処理ここから
 		///
 
-		stg->Update(keys, preKeys);
+		scene->Update(keys, preKeys);
 
 		///
 		/// ↑更新処理ここまで
@@ -45,7 +46,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 		/// ↓描画処理ここから
 		///
 
-		stg->Draw();
+		scene->Draw();
 
 		///
 		/// ↑描画処理ここまで
@@ -61,7 +62,12 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 	}
 
 
-	delete stg;
+	/*-------------------------
+	    インスタンスを削除する
+	-------------------------*/
+
+	// シーン
+	delete scene;
 
 
 	// ライブラリの終了
