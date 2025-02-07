@@ -1,4 +1,6 @@
 #include <Novice.h>
+#include "Constant.h"
+#include "./Class/Object/Player/Player.h"
 
 const char kWindowTitle[] = "LC1C_20_フクダソウワ_STGクラス化";
 
@@ -11,6 +13,14 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 	// キー入力結果を受け取る箱
 	char keys[256] = {0};
 	char preKeys[256] = {0};
+
+
+	/*---------------
+	    変数を作る
+	---------------*/
+
+	Player* player = new Player();
+
 
 	// ウィンドウの×ボタンが押されるまでループ
 	while (Novice::ProcessMessage() == 0) {
@@ -25,9 +35,13 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 		/// ↓更新処理ここから
 		///
 
+		player->Move(keys, preKeys);
+
 		///
 		/// ↑更新処理ここまで
 		///
+
+		player->Draw();
 
 		///
 		/// ↓描画処理ここから
@@ -45,6 +59,8 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 			break;
 		}
 	}
+
+	delete player;
 
 	// ライブラリの終了
 	Novice::Finalize();

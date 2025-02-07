@@ -23,6 +23,15 @@
     <Filter Include="Class\Object">
       <UniqueIdentifier>{9ac09398-af61-4a50-9d47-c2757932e80a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Class\STG">
+      <UniqueIdentifier>{8859eb0a-2833-4c68-b112-904222dc145e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\Object\Player">
+      <UniqueIdentifier>{4aa7e3d5-fbfd-4133-8cdd-b72f5712f09f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\Object\Bullet">
+      <UniqueIdentifier>{1e207153-71b1-4a7b-80a0-84f8905c7ec8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C:\KamataEngine\DirectXGame\base\DirectXCommon.cpp">
@@ -52,6 +61,12 @@
     </ClCompile>
     <ClCompile Include="Class\Object\Object.cpp">
       <Filter>Class\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Object\Player\Player.cpp">
+      <Filter>Class\Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Object\Bullet\Bullet.cpp">
+      <Filter>Class\Object\Bullet</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -131,6 +146,13 @@
     </ClInclude>
     <ClInclude Include="Class\Object\Object.h">
       <Filter>Class\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Object\Player\Player.h">
+      <Filter>Class\Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Constant.h" />
+    <ClInclude Include="Class\Object\Bullet\Bullet.h">
+      <Filter>Class\Object\Bullet</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
