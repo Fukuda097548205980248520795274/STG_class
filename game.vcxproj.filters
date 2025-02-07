@@ -32,6 +32,18 @@
     <Filter Include="Class\Object\Bullet">
       <UniqueIdentifier>{1e207153-71b1-4a7b-80a0-84f8905c7ec8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Class\Object\Bullet\PlayerBullet">
+      <UniqueIdentifier>{fe22d193-3200-4c53-b927-0a981b269ec5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\Bullets">
+      <UniqueIdentifier>{a2ae73db-c57c-4017-bb0e-cd4dcca001ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\Bullets\PlayerBullets">
+      <UniqueIdentifier>{b4d6b920-3f5b-483d-b84e-d113c0cfa96a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\Bullets\EnemyBullets">
+      <UniqueIdentifier>{7ab76edb-3c9c-487a-8d0c-1d58829db6ad}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C:\KamataEngine\DirectXGame\base\DirectXCommon.cpp">
@@ -67,6 +79,18 @@
     </ClCompile>
     <ClCompile Include="Class\Object\Bullet\Bullet.cpp">
       <Filter>Class\Object\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Object\Bullet\PlayerBullet\PlayerBullet.cpp">
+      <Filter>Class\Object\Bullet\PlayerBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Bullets\Bullets.cpp">
+      <Filter>Class\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Bullets\PlayerBullets\PlayerBullets.cpp">
+      <Filter>Class\Bullets\PlayerBullets</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\STG\STG.cpp">
+      <Filter>Class\STG</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -153,6 +177,18 @@
     <ClInclude Include="Constant.h" />
     <ClInclude Include="Class\Object\Bullet\Bullet.h">
       <Filter>Class\Object\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Object\Bullet\PlayerBullet\PlayerBullet.h">
+      <Filter>Class\Object\Bullet\PlayerBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Bullets\Bullets.h">
+      <Filter>Class\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Bullets\PlayerBullets\PlayerBullets.h">
+      <Filter>Class\Bullets\PlayerBullets</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\STG\STG.h">
+      <Filter>Class\STG</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

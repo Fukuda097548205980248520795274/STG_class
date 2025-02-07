@@ -1,6 +1,6 @@
 #include <Novice.h>
 #include "Constant.h"
-#include "./Class/Object/Player/Player.h"
+#include "./Class/STG/STG.h"
 
 const char kWindowTitle[] = "LC1C_20_フクダソウワ_STGクラス化";
 
@@ -19,7 +19,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 	    変数を作る
 	---------------*/
 
-	Player* player = new Player();
+	STG* stg = new STG();
 
 
 	// ウィンドウの×ボタンが押されるまでループ
@@ -35,17 +35,17 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 		/// ↓更新処理ここから
 		///
 
-		player->Move(keys, preKeys);
+		stg->Update(keys, preKeys);
 
 		///
 		/// ↑更新処理ここまで
 		///
 
-		player->Draw();
-
 		///
 		/// ↓描画処理ここから
 		///
+
+		stg->Draw();
 
 		///
 		/// ↑描画処理ここまで
@@ -60,7 +60,9 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 		}
 	}
 
-	delete player;
+
+	delete stg;
+
 
 	// ライブラリの終了
 	Novice::Finalize();
