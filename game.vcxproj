@@ -117,8 +117,12 @@ xcopy C:\KamataEngine\DirectXGame\Resources "$(OutDirFullPath)NoviceResources" /
     <ClCompile Include="C:\KamataEngine\Adapter\Novice.cpp" />
     <ClCompile Include="Class\Bullets\Bullets.cpp" />
     <ClCompile Include="Class\Bullets\PlayerBullets\PlayerBullets.cpp" />
+    <ClCompile Include="Class\Enemies\Enemies.cpp" />
     <ClCompile Include="Class\Object\Bullet\Bullet.cpp" />
     <ClCompile Include="Class\Object\Bullet\PlayerBullet\PlayerBullet.cpp" />
+    <ClCompile Include="Class\Object\Enemy\Enemy.cpp" />
+    <ClCompile Include="Class\Object\Enemy\EnemyBeside\EnemyBeside.cpp" />
+    <ClCompile Include="Class\Object\Enemy\EnemyVertical\EnemyVertical.cpp" />
     <ClCompile Include="Class\Object\Object.cpp" />
     <ClCompile Include="Class\Object\Player\Player.cpp" />
     <ClCompile Include="Class\Scene\Scene.cpp" />
@@ -156,8 +160,12 @@ xcopy C:\KamataEngine\DirectXGame\Resources "$(OutDirFullPath)NoviceResources" /
     <ClInclude Include="C:\KamataEngine\Adapter\Novice.h" />
     <ClInclude Include="Class\Bullets\Bullets.h" />
     <ClInclude Include="Class\Bullets\PlayerBullets\PlayerBullets.h" />
+    <ClInclude Include="Class\Enemies\Enemies.h" />
     <ClInclude Include="Class\Object\Bullet\Bullet.h" />
     <ClInclude Include="Class\Object\Bullet\PlayerBullet\PlayerBullet.h" />
+    <ClInclude Include="Class\Object\Enemy\Enemy.h" />
+    <ClInclude Include="Class\Object\Enemy\EnemyBeside\EnemyBeside.h" />
+    <ClInclude Include="Class\Object\Enemy\EnemyVertical\EnemyVertical.h" />
     <ClInclude Include="Class\Object\Object.h" />
     <ClInclude Include="Class\Object\Player\Player.h" />
     <ClInclude Include="Class\Scene\Scene.h" />

@@ -41,11 +41,20 @@
     <Filter Include="Class\Bullets\PlayerBullets">
       <UniqueIdentifier>{b4d6b920-3f5b-483d-b84e-d113c0cfa96a}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Class\Bullets\EnemyBullets">
-      <UniqueIdentifier>{7ab76edb-3c9c-487a-8d0c-1d58829db6ad}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Class\Scene">
       <UniqueIdentifier>{4ac4795d-cdf2-43c9-bbd1-8246c3bacbba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\Object\Enemy">
+      <UniqueIdentifier>{9d443ab4-d29f-4d23-b813-9ff1e0b9c52b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\Object\Enemy\EnemyVertical">
+      <UniqueIdentifier>{945f6c2b-44b2-45d7-aef8-53f6ec050e56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\Object\Enemy\EnemyBeside">
+      <UniqueIdentifier>{4632bd55-40a7-4063-8181-bfc5cf7d805e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\Enemies">
+      <UniqueIdentifier>{0ed01f73-f57c-494b-8c9f-5d2fe293d686}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -97,6 +106,18 @@
     </ClCompile>
     <ClCompile Include="Class\Scene\Scene.cpp">
       <Filter>Class\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Object\Enemy\Enemy.cpp">
+      <Filter>Class\Object\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Object\Enemy\EnemyBeside\EnemyBeside.cpp">
+      <Filter>Class\Object\Enemy\EnemyBeside</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Object\Enemy\EnemyVertical\EnemyVertical.cpp">
+      <Filter>Class\Object\Enemy\EnemyVertical</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Enemies\Enemies.cpp">
+      <Filter>Class\Enemies</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -200,5 +221,17 @@
       <Filter>Class\Scene</Filter>
     </ClInclude>
     <ClInclude Include="Enumeration.h" />
+    <ClInclude Include="Class\Object\Enemy\Enemy.h">
+      <Filter>Class\Object\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Object\Enemy\EnemyBeside\EnemyBeside.h">
+      <Filter>Class\Object\Enemy\EnemyBeside</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Object\Enemy\EnemyVertical\EnemyVertical.h">
+      <Filter>Class\Object\Enemy\EnemyVertical</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Enemies\Enemies.h">
+      <Filter>Class\Enemies</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
