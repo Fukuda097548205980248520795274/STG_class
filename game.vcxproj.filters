@@ -35,12 +35,6 @@
     <Filter Include="Class\Object\Bullet\PlayerBullet">
       <UniqueIdentifier>{fe22d193-3200-4c53-b927-0a981b269ec5}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Class\Bullets">
-      <UniqueIdentifier>{a2ae73db-c57c-4017-bb0e-cd4dcca001ac}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Class\Bullets\PlayerBullets">
-      <UniqueIdentifier>{b4d6b920-3f5b-483d-b84e-d113c0cfa96a}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Class\Scene">
       <UniqueIdentifier>{4ac4795d-cdf2-43c9-bbd1-8246c3bacbba}</UniqueIdentifier>
     </Filter>
@@ -55,6 +49,12 @@
     </Filter>
     <Filter Include="Class\Enemies">
       <UniqueIdentifier>{0ed01f73-f57c-494b-8c9f-5d2fe293d686}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\Object\Bullet\EnemyBullet">
+      <UniqueIdentifier>{48b34943-e25a-426b-8110-9f444ccec33a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\Frame">
+      <UniqueIdentifier>{0443804d-7355-40d3-8503-26b0152ac1ac}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -95,12 +95,6 @@
     <ClCompile Include="Class\Object\Bullet\PlayerBullet\PlayerBullet.cpp">
       <Filter>Class\Object\Bullet\PlayerBullet</Filter>
     </ClCompile>
-    <ClCompile Include="Class\Bullets\Bullets.cpp">
-      <Filter>Class\Bullets</Filter>
-    </ClCompile>
-    <ClCompile Include="Class\Bullets\PlayerBullets\PlayerBullets.cpp">
-      <Filter>Class\Bullets\PlayerBullets</Filter>
-    </ClCompile>
     <ClCompile Include="Class\STG\STG.cpp">
       <Filter>Class\STG</Filter>
     </ClCompile>
@@ -118,6 +112,12 @@
     </ClCompile>
     <ClCompile Include="Class\Enemies\Enemies.cpp">
       <Filter>Class\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Object\Bullet\EnemyBullet\EnemyBullet.cpp">
+      <Filter>Class\Object\Bullet\EnemyBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Frame\Frame.cpp">
+      <Filter>Class\Frame</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -208,12 +208,6 @@
     <ClInclude Include="Class\Object\Bullet\PlayerBullet\PlayerBullet.h">
       <Filter>Class\Object\Bullet\PlayerBullet</Filter>
     </ClInclude>
-    <ClInclude Include="Class\Bullets\Bullets.h">
-      <Filter>Class\Bullets</Filter>
-    </ClInclude>
-    <ClInclude Include="Class\Bullets\PlayerBullets\PlayerBullets.h">
-      <Filter>Class\Bullets\PlayerBullets</Filter>
-    </ClInclude>
     <ClInclude Include="Class\STG\STG.h">
       <Filter>Class\STG</Filter>
     </ClInclude>
@@ -232,6 +226,12 @@
     </ClInclude>
     <ClInclude Include="Class\Enemies\Enemies.h">
       <Filter>Class\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Object\Bullet\EnemyBullet\EnemyBullet.h">
+      <Filter>Class\Object\Bullet\EnemyBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Frame\Frame.h">
+      <Filter>Class\Frame</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
