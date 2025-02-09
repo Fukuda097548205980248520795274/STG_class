@@ -36,6 +36,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 		/// ↓更新処理ここから
 		///
 
+		// シーンの更新処理
 		scene->Update(keys, preKeys);
 
 		///
@@ -46,6 +47,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 		/// ↓描画処理ここから
 		///
 
+		// シーンの描画処理
 		scene->Draw();
 
 		///
